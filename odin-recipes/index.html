@@ -21,6 +21,11 @@
     .subsection.content {
       margin-left: 20px;
     }
+    .ancestor .child .grandchild {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+    } 
     </style>
 </head>
 <body>
@@ -36,6 +41,13 @@
                 <li>Recipe 3: Menasina Saaru</li>
             </ul>
     </div>
+    <div class="ancestor">
+      <div class="child">
+        <div class="grandchild"></div>
+      </div>
+    </div>
+    <div class="child"></div>
+    <div class="grandchild"></div>
     <p> 
         <a href="./pages/pancakes.html">Pancake Recipe</a>
     </p>
